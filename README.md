@@ -88,10 +88,10 @@ Here, `<media-path>` could be a path to an image, a video, or a folder containin
 
 ## 💻 Model Zoo
 
-| Model | Base MLLM | Checkpoint | Training Log |
-|:-:|:-:|:-:|:-:|
-| UniPixel-3B | [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-3B) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-3B/resolve/main/trainer_state.json) |
-| UniPixel-7B | [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-7B) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-7B/resolve/main/trainer_state.json) |
+| Model | Base MLLM | Mask Decoder | Checkpoint | Training Log |
+|:-:|:-:|:-:|:-:|:-:|
+| UniPixel-3B | [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) | [SAM2.1-Hiera-Base+](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-3B) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-3B/resolve/main/trainer_state.json) |
+| UniPixel-7B | [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | [SAM2.1-Hiera-Base+](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-7B) | [🤗 Link](https://huggingface.co/PolyU-ChenLab/UniPixel-7B/resolve/main/trainer_state.json) |
 
 ## 📦 UniPixel-SFT-1M Dataset
 
